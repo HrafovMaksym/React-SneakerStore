@@ -1,0 +1,37 @@
+.categoryBlock {
+  margin-top: 30px;
+  z-index: 2;
+
+  span {
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    b {
+      margin-right: 10px;
+      padding: 10px;
+    }
+    b:hover {
+      color: #0b3a82;
+    }
+  }
+}
+.popCategory {
+  position: relative;
+  z-index: 10;
+  top: 5px;
+  border: 1px solid black;
+  background-color: white;
+  ul {
+    padding: 0;
+  }
+  li {
+    margin-top: 10px;
+    margin-left: 6px;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 500;
+  }
+  li:hover {
+    color: #0b3a82;
+  }
+}

@@ -1,0 +1,44 @@
+.headerBtns {
+  margin-left: 30px;
+  margin-right: 20px;
+
+  span:first-child {
+    a {
+      text-decoration: none;
+      color: white;
+      background-color: inherit;
+      padding: 33px 34px;
+      border-right: 1px solid rgb(80, 79, 79);
+      border-left: 1px solid rgb(80, 79, 79);
+      cursor: pointer;
+      position: relative;
+    }
+    // &:hover a::after {
+    //   content: "";
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 50%;
+    //   width: 0;
+    //   height: 3px;
+    //   background-color: white;
+    // }
+    // &:hover a::after {
+    //   width: 100%;
+    //   left: 0;
+    // }
+  }
+  span:last-child {
+    a {
+      text-decoration: none;
+      color: white;
+      background-color: inherit;
+      padding: 33px 45px;
+      border-right: 1px solid rgb(80, 79, 79);
+      cursor: pointer;
+    }
+  }
+}
+.activeBtn {
+  background-color: #353941;
+  cursor: pointer;
+}

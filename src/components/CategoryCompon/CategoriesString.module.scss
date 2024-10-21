@@ -1,0 +1,43 @@
+.stringCotegories {
+  display: flex;
+  padding: 0px;
+  @media (max-width: 1430px) {
+    display: none;
+  }
+}
+.activeCategories {
+  list-style: none;
+  border: 1px solid black;
+  margin-right: 10px;
+  padding: 13px 25px 13px 25px;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: #1f2b3d;
+  color: white;
+  @media (max-width: 1510px) {
+    margin-top: 5px;
+    padding: 8px 18px 8px 18px;
+  }
+}
+
+.categories {
+  list-style: none;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+  padding: 13px 25px 13px 25px;
+  border-radius: 40px;
+  cursor: pointer;
+  @media (max-width: 1510px) {
+    margin-top: 5px;
+    padding: 8px 18px 8px 18px;
+  }
+}
+.categories:hover {
+  background-color: #2d415e;
+  color: white;
+}
+.container {
+  max-width: 750px;
+}

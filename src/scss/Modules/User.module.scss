@@ -1,0 +1,109 @@
+.card {
+  width: 300px;
+  height: 235px;
+  background-color: rgb(241, 237, 232);
+  position: absolute;
+  top: 86px;
+  right: 157px;
+  opacity: 0;
+  transition: all ease 0.5s;
+  visibility: hidden;
+  transform: translateY(-20px);
+
+  &.visible {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  &::before,
+  &::after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 113px;
+  }
+
+  &::before {
+    top: -16px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+  }
+
+  &::after {
+    top: -15px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgb(255, 255, 255);
+  }
+
+  .btnClose {
+    margin-left: 85px;
+    width: 32px;
+    height: 32px;
+    background-color: inherit;
+    border: 1px solid #aeaeae;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px;
+
+    transition: all ease-in 0.2s;
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      path {
+        transition: all ease-in 0.2s;
+        fill: #aeaeae;
+      }
+    }
+
+    &:hover {
+      border: 1px solid #1f2b3d;
+
+      path {
+        fill: #1f2b3d;
+      }
+    }
+  }
+
+  div {
+    background-color: rgb(211, 211, 211);
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    a {
+      font-size: 16px;
+      color: black;
+      opacity: 0.6;
+      cursor: pointer;
+    }
+
+    a:hover {
+      color: #2c71d9;
+      opacity: 1;
+    }
+  }
+  span {
+    display: flex;
+    transition: all ease-out 0.2s;
+    li {
+      margin-left: 12px;
+      font-size: 16px;
+      list-style: none;
+      margin-bottom: 20px;
+    }
+    &:hover {
+      color: #2c71d9;
+      fill: #2c71d9;
+    }
+  }
+}

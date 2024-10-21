@@ -1,0 +1,72 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+.title {
+  font-size: 18px;
+  margin-bottom: 19.92px;
+}
+.price {
+  border-top: 1px solid rgb(197, 197, 197);
+  margin-top: 10px;
+  padding: 5px 0;
+  span {
+    display: flex;
+    align-items: center;
+    p {
+      margin-right: 5px;
+    }
+    input {
+      height: 20px;
+      width: 60px;
+      margin-right: 10px;
+      font-size: 17px;
+      font-weight: 600;
+      input:focus {
+        border: 1px solid red;
+      }
+    }
+  }
+}
+.brand {
+  padding: 5px 0;
+  border-top: 1px solid rgb(197, 197, 197);
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      cursor: pointer;
+      margin-bottom: 10px;
+      &:hover {
+        color: #466da9;
+      }
+    }
+  }
+  label {
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 20px;
+  }
+
+  label::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: inherit;
+    border: 1px solid black;
+    margin-right: 10px;
+    color: black;
+    border-radius: 3px;
+    line-height: 20px;
+  }
+}
+.blockSizes {
+  padding: 5px 0;
+  border-top: 1px solid rgb(197, 197, 197);
+  ul {
+    padding: 0;
+  }
+}

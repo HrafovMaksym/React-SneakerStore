@@ -1,0 +1,43 @@
+.sizes {
+  list-style: none;
+  border: 1px solid black;
+  width: 80%;
+  padding: 3px 0 3px 0;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+  &:hover {
+    color: white;
+    background-color: #466da9;
+    border: 1px solid white;
+  }
+}
+.AtiveSize {
+  color: white;
+  background-color: #466da9;
+  border: 1px solid white;
+  list-style: none;
+  width: 25%;
+  padding: 3px 0 3px 0;
+  text-align: center;
+  margin-right: 10px;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+.blockSizes {
+  padding: 5px 0;
+  border-top: 1px solid rgb(197, 197, 197);
+  ul {
+    padding: 0;
+  }
+}
+.title {
+  font-size: 18px;
+  margin-bottom: 19.92px;
+}

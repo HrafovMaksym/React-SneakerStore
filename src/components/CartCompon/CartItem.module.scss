@@ -1,0 +1,103 @@
+.card {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 342px;
+  background-color: inherit;
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+  padding: 5px 5px 3px 7px;
+  position: relative;
+}
+.flexCard {
+  display: flex;
+  align-items: center;
+}
+.sneakerImg {
+  img {
+    width: 130px;
+    height: 140px;
+  }
+}
+.properties {
+  margin-right: 10px;
+  .title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .parametrs {
+    font-weight: 450;
+  }
+  .gender {
+    position: absolute;
+    right: 45px;
+    top: 70px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 5px 3px 5px;
+  }
+}
+.count {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  button:disabled {
+    border: 1px solid rgb(155, 155, 155);
+    path {
+      fill: rgb(155, 155, 155);
+    }
+    &:hover {
+      cursor: inherit;
+      background-color: white;
+      path {
+        fill: rgb(155, 155, 155);
+      }
+    }
+  }
+  button {
+    cursor: pointer;
+    border: 1px solid #1f2b3d;
+    border-radius: 50%;
+    padding: 0.5px 5px 0.5px 5px;
+    transition: all ease-in-out 0.15s;
+    background-color: white;
+  }
+  button:last-child {
+    margin-left: 1px;
+  }
+  button:hover {
+    background-color: #1f2b3d;
+    path {
+      fill: #ffffff;
+    }
+  }
+  b {
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    margin-top: 2px;
+  }
+}
+.btnDelete {
+  width: 25px;
+  height: 25px;
+  background-color: inherit;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 2px;
+  margin-right: 4px;
+  transition: all ease-in 0.2s;
+  svg {
+    width: 20px;
+    fill: #c3c3c3;
+    height: 20px;
+    transition: all ease-in 0.2s;
+  }
+  &:hover {
+    border: 1px solid #1f2b3d;
+    svg {
+      fill: #1f2b3d;
+    }
+  }
+}

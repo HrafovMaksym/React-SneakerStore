@@ -1,0 +1,45 @@
+.brand {
+  padding: 5px 0;
+  border-top: 1px solid rgb(197, 197, 197);
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      cursor: pointer;
+      margin-bottom: 10px;
+      &:hover {
+        color: #466da9;
+      }
+    }
+  }
+  label {
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 20px;
+  }
+
+  label::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: inherit;
+    border: 1px solid black;
+    margin-right: 10px;
+    color: black;
+    border-radius: 3px;
+    line-height: 20px;
+  }
+}
+.title {
+  font-size: 18px;
+  margin-bottom: 19.92px;
+}
+.checkbox {
+  display: none;
+  cursor: pointer;
+}
+.checkbox:checked + label::before {
+  content: "\2714";
+}

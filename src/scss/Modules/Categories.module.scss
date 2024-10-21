@@ -1,0 +1,19 @@
+.string {
+  display: block;
+  position: absolute;
+  left: 270px;
+  @media (max-width: 1430px) {
+    display: none;
+  }
+}
+
+.block {
+  margin-left: 180px;
+  display: none;
+  @media (max-width: 1430px) {
+    display: block;
+  }
+  @media (max-width: 1200px) {
+    margin-left: 80px;
+  }
+}

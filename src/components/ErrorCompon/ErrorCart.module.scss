@@ -1,0 +1,24 @@
+.root {
+  padding: 150px;
+  text-align: center;
+  p {
+    font-size: 20px;
+  }
+  button {
+    margin-top: 20px;
+    cursor: pointer;
+
+    width: 250px;
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    transition: all ease 0.3s;
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+}

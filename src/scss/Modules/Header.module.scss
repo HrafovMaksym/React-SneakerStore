@@ -1,0 +1,102 @@
+.header {
+  border-bottom: 0px solid rgb(0, 0, 0);
+  background-color: #26282b;
+  position: relative;
+}
+.headerContainer {
+  max-width: 1280px;
+  margin: auto;
+}
+.flex_header {
+  display: flex;
+  align-items: center;
+}
+.header_navbar {
+  display: flex;
+  margin-right: 25px;
+  text-decoration: none;
+  h2,
+  p {
+    margin: 0;
+    color: #353941;
+    white-space: nowrap;
+  }
+  img {
+    margin-right: 15px;
+  }
+  h2 {
+    color: rgb(230, 230, 230);
+  }
+  p {
+    color: rgb(147, 147, 147);
+  }
+}
+.headerRight {
+  display: flex;
+  margin-left: 20px;
+
+  z-index: 1;
+  button:first-child {
+    border-right: 0px solid rgb(80, 79, 79);
+    border-left: 1px solid rgb(80, 79, 79);
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
+    background-color: inherit;
+    padding: 29px 29px;
+    display: flex;
+    max-width: 85px;
+    cursor: pointer;
+    transition: all ease 0.9s;
+  }
+  button {
+    max-width: 90px;
+    border-right: 1px solid rgb(80, 79, 79);
+    border-left: 1px solid rgb(80, 79, 79);
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
+    background-color: inherit;
+    padding: 29px 29px;
+    display: flex;
+    cursor: pointer;
+  }
+}
+
+.userImg {
+  width: 28px;
+  height: 28px;
+
+  fill: white;
+}
+
+.likedImg {
+  width: 28px;
+  height: 28px;
+  min-width: 16px;
+  fill: white;
+  path {
+    stroke: white;
+  }
+}
+
+.likedItems {
+  margin-top: 5px;
+  margin-left: 4px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.cartImg {
+  width: 28px;
+  height: 28px;
+  min-width: 19px;
+
+  fill: white;
+}
+.items {
+  margin-top: 5px;
+  margin-left: 4px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}

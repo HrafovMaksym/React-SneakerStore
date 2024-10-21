@@ -1,0 +1,27 @@
+.root {
+  padding: 150px;
+  text-align: center;
+  p {
+    font-size: 20px;
+  }
+  button {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 335px;
+    height: 55px;
+    border-radius: 18px;
+    border: 0px solid white;
+    color: white;
+    font-size: 19px;
+    background-color: #c2989cbf;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #d2717bbf;
+  }
+}
+.img {
+  font-size: 55px;
+}
